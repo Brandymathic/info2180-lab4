@@ -1,0 +1,99 @@
+/* General Reset */
+body, h1, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+/* For the search box container */
+div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Input and Button Styling */
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+/* The results Section */
+#result {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Superhero Details */
+h3 {
+    color: #0056b3;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+}
